@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExplorerSimSonarState xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:d="http://schemas.microsoft.com/xw/2004/10/dssp.html" xmlns="http://www.conscious-robots.com/2007/09/explorersimsonar.html">
+  <Countdown>0</Countdown>
+  <LogicalState>Unknown</LogicalState>
+  <NewHeading>0</NewHeading>
+  <Velocity>0</Velocity>
+  <Mapped>false</Mapped>
+  <MostRecentSonar>2007-11-14T09:45:20+01:00</MostRecentSonar>
+  <MostRecentLaser>2007-11-14T09:45:20+01:00</MostRecentLaser>
+  <X>0</X>
+  <Y>0</Y>
+  <Theta>0</Theta>
+  <DrawMap>true</DrawMap>
+  <DrawingMode>Overwrite</DrawingMode>
+  <MapWidth>24</MapWidth>
+  <MapHeight>18</MapHeight>
+  <MapResolution>0.05</MapResolution>
+  <MapMaxRange>6</MapMaxRange>
+  <BayesVacant>192</BayesVacant>
+  <BayesObstacle>64</BayesObstacle>
+  <UseSonar>true</UseSonar>
+  <UseLRF>false</UseLRF>
+  <SonarTransducers>8</SonarTransducers>
+  <SonarRadians>
+    <double>1.5707963267948966</double>
+    <double>0.87266462599716477</double>
+    <double>0.52359877559829882</double>
+    <double>0.17453292519943295</double>
+    <double>-0.17453292519943295</double>
+    <double>-0.52359877559829882</double>
+    <double>-0.87266462599716477</double>
+    <double>-1.5707963267948966</double>
+  </SonarRadians>
+</ExplorerSimSonarState>

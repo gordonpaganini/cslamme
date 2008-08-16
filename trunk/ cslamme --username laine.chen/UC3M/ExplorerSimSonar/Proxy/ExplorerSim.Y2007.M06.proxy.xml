@@ -1,0 +1,565 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExplorerSim.Y2007.M06.Proxy</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Robotics.Services.ExplorerSim.Proxy.Contract">
+            <summary>
+            ExplorerSimSonar Contract
+            </summary>
+        </member>
+        <member name="F:Microsoft.Robotics.Services.ExplorerSim.Proxy.Contract.Identifier">
+            The Unique Contract Identifier for the ExplorerSimSonar service
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.Contract.ServiceModel">
+            The Dss Service dssModel Contract(s)
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>
+            Creates an instance of the service associated with this contract
+            </summary>
+            <param name="contructorServicePort">Contractor Service that will create the instance</param>
+            <param name="partners">Optional list of service partners for new service instance</param>
+            <returns>Result PortSet for retrieving service creation response</returns>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort)">
+            <summary>
+            Creates an instance of the service associated with this contract
+            </summary>
+            <param name="contructorServicePort">Contractor Service that will create the instance</param>
+            <returns>Result PortSet for retrieving service creation response</returns>
+        </member>
+        <member name="T:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState">
+            <summary>
+            Explorer Sim Sonar State
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+            <summary>
+            Copy To Explorer Sim Sonar State
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.Clone">
+            <summary>
+            Clone Explorer Sim Sonar State
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.Serialize(System.IO.BinaryWriter)">
+            <summary>
+            Serialize Serialize
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.Deserialize(System.IO.BinaryReader)">
+            <summary>
+            Deserialize Deserialize
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.DriveState">
+            <summary>
+            Drive State
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.Countdown">
+            <summary>
+            Countdown
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.LogicalState">
+            <summary>
+            Logical State
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.NewHeading">
+            <summary>
+            New Heading
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.Velocity">
+            <summary>
+            Velocity
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.SouthSonar">
+            <summary>
+            South Sonar
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.South">
+            <summary>
+            South
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.Mapped">
+            <summary>
+            Mapped
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.MostRecentSonar">
+            <summary>
+            Most Recent Sonar
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.MostRecentLaser">
+            <summary>
+            Most Recent Laser
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.X">
+            <summary>
+            X
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.Y">
+            <summary>
+            Y
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.Theta">
+            <summary>
+            Theta
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.DrawMap">
+            <summary>
+            Draw Map
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.DrawingMode">
+            <summary>
+            Drawing Mode
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.MapWidth">
+            <summary>
+            Map Width
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.MapHeight">
+            <summary>
+            Map Height
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.MapResolution">
+            <summary>
+            Map Resolution
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.MapMaxRange">
+            <summary>
+            Map Max Range
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.BayesVacant">
+            <summary>
+            Bayes Vacant
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.BayesObstacle">
+            <summary>
+            Bayes Obstacle
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.UseSonar">
+            <summary>
+            Use Sonar
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.UseLRF">
+            <summary>
+            UseLRF
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.SonarTransducers">
+            <summary>
+            Sonar Transducers
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.SonarRadians">
+            <summary>
+            Sonar Radians
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState.InitTimeStamp">
+            <summary>
+            Init Time Stamp
+            </summary>
+        </member>
+        <member name="T:Microsoft.Robotics.Services.ExplorerSim.Proxy.WatchDogUpdateRequest">
+            <summary>
+            Watch Dog Update Request
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.WatchDogUpdateRequest.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+            <summary>
+            Copy To Watch Dog Update Request
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.WatchDogUpdateRequest.Clone">
+            <summary>
+            Clone Watch Dog Update Request
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.WatchDogUpdateRequest.Serialize(System.IO.BinaryWriter)">
+            <summary>
+            Serialize Serialize
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.WatchDogUpdateRequest.Deserialize(System.IO.BinaryReader)">
+            <summary>
+            Deserialize Deserialize
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Proxy.WatchDogUpdateRequest.TimeStamp">
+            <summary>
+            Time Stamp
+            </summary>
+        </member>
+        <member name="T:Microsoft.Robotics.Services.ExplorerSim.Proxy.LogicalState">
+            <summary>
+            Logical State
+            </summary>
+        </member>
+        <member name="F:Microsoft.Robotics.Services.ExplorerSim.Proxy.LogicalState.Unknown">
+            <summary>
+            Unknown
+            </summary>
+        </member>
+        <member name="F:Microsoft.Robotics.Services.ExplorerSim.Proxy.LogicalState.RandomTurn">
+            <summary>
+            Random Turn
+            </summary>
+        </member>
+        <member name="F:Microsoft.Robotics.Services.ExplorerSim.Proxy.LogicalState.AdjustHeading">
+            <summary>
+            Adjust Heading
+            </summary>
+        </member>
+        <member name="F:Microsoft.Robotics.Services.ExplorerSim.Proxy.LogicalState.FreeForwards">
+            <summary>
+            Free Forwards
+            </summary>
+        </member>
+        <member name="F:Microsoft.Robotics.Services.ExplorerSim.Proxy.LogicalState.MapSurroundings">
+            <summary>
+            Map Surroundings
+            </summary>
+        </member>
+        <member name="F:Microsoft.Robotics.Services.ExplorerSim.Proxy.LogicalState.MapNorth">
+            <summary>
+            Map North
+            </summary>
+        </member>
+        <member name="F:Microsoft.Robotics.Services.ExplorerSim.Proxy.LogicalState.MapSouth">
+            <summary>
+            Map South
+            </summary>
+        </member>
+        <member name="T:Microsoft.Robotics.Services.ExplorerSim.Proxy.MapMode">
+            <summary>
+            Map Mode
+            </summary>
+        </member>
+        <member name="F:Microsoft.Robotics.Services.ExplorerSim.Proxy.MapMode.Overwrite">
+            <summary>
+            Overwrite
+            </summary>
+        </member>
+        <member name="F:Microsoft.Robotics.Services.ExplorerSim.Proxy.MapMode.Counting">
+            <summary>
+            Counting
+            </summary>
+        </member>
+        <member name="F:Microsoft.Robotics.Services.ExplorerSim.Proxy.MapMode.BayesRule">
+            <summary>
+            Bayes Rule
+            </summary>
+        </member>
+        <member name="T:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations">
+            <summary>
+            Explorer Sim Sonar Operations
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.DsspDefaultLookup">
+            <summary>
+            Required Lookup request body type
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.DsspDefaultLookup(Microsoft.Dss.ServiceModel.Dssp.LookupRequestType)">
+            <summary>
+            Post Dssp Default Lookup and return the response port.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.DsspDefaultDrop">
+            <summary>
+            A request to drop the service.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.DsspDefaultDrop(Microsoft.Dss.ServiceModel.Dssp.DropRequestType)">
+            <summary>
+            Post Dssp Default Drop and return the response port.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.Get">
+            <summary>
+            Required Get body type
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.Get(Microsoft.Dss.ServiceModel.Dssp.GetRequestType)">
+            <summary>
+            Post Get and return the response port.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.BumperUpdate">
+            <summary>
+            The state of the contact sensor.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.BumperUpdate(Microsoft.Robotics.Services.ContactSensor.Proxy.ContactSensor)">
+            <summary>
+            Post Bumper Update and return the response port.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.BumpersUpdate">
+            <summary>
+            The state of the set (array) of contact sensors.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.BumpersUpdate(Microsoft.Robotics.Services.ContactSensor.Proxy.ContactSensorArrayState)">
+            <summary>
+            Post Bumpers Update and return the response port.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.DriveUpdate">
+            <summary>
+            The state of the differential drive.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.DriveUpdate(Microsoft.Robotics.Services.Drive.Proxy.DriveDifferentialTwoWheelState)">
+            <summary>
+            Post Drive Update and return the response port.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.SonarUpdate">
+            <summary>
+            The state of the sonar sensor.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.SonarUpdate(Microsoft.Robotics.Services.Sonar.Proxy.SonarState)">
+            <summary>
+            Post Sonar Update and return the response port.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.LaserRangeFinderUpdate">
+            <summary>
+            Identifies the state of the Sick laser range finder (LRF).
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.LaserRangeFinderUpdate(Microsoft.Robotics.Services.Sensors.SickLRF.Proxy.State)">
+            <summary>
+            Post Laser Range Finder Update and return the response port.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.LaserRangeFinderResetUpdate">
+            <summary>
+            Reset Type
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.LaserRangeFinderResetUpdate(Microsoft.Robotics.Services.Sensors.SickLRF.Proxy.ResetType)">
+            <summary>
+            Post Laser Range Finder Reset Update and return the response port.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.WatchDogUpdate">
+            <summary>
+            Watch Dog Update Request
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarOperations.WatchDogUpdate(Microsoft.Robotics.Services.ExplorerSim.Proxy.WatchDogUpdateRequest)">
+            <summary>
+            Post Watch Dog Update and return the response port.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Robotics.Services.ExplorerSim.Proxy.Get">
+            <summary>
+            Get
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.Get.#ctor">
+            <summary>
+            Get
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.Get.#ctor(Microsoft.Dss.ServiceModel.Dssp.GetRequestType)">
+            <summary>
+            Get
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.Get.#ctor(Microsoft.Dss.ServiceModel.Dssp.GetRequestType,Microsoft.Ccr.Core.PortSet{Microsoft.Robotics.Services.ExplorerSim.Proxy.ExplorerSimSonarState,W3C.Soap.Fault})">
+            <summary>
+            Get
+            </summary>
+        </member>
+        <member name="T:Microsoft.Robotics.Services.ExplorerSim.Proxy.BumperUpdate">
+            <summary>
+            Bumper Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.BumperUpdate.#ctor">
+            <summary>
+            Bumper Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.BumperUpdate.#ctor(Microsoft.Robotics.Services.ContactSensor.Proxy.ContactSensor)">
+            <summary>
+            Bumper Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.BumperUpdate.#ctor(Microsoft.Robotics.Services.ContactSensor.Proxy.ContactSensor,Microsoft.Ccr.Core.PortSet{Microsoft.Dss.ServiceModel.Dssp.DefaultUpdateResponseType,W3C.Soap.Fault})">
+            <summary>
+            Bumper Update
+            </summary>
+        </member>
+        <member name="T:Microsoft.Robotics.Services.ExplorerSim.Proxy.BumpersUpdate">
+            <summary>
+            Bumpers Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.BumpersUpdate.#ctor">
+            <summary>
+            Bumpers Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.BumpersUpdate.#ctor(Microsoft.Robotics.Services.ContactSensor.Proxy.ContactSensorArrayState)">
+            <summary>
+            Bumpers Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.BumpersUpdate.#ctor(Microsoft.Robotics.Services.ContactSensor.Proxy.ContactSensorArrayState,Microsoft.Ccr.Core.PortSet{Microsoft.Dss.ServiceModel.Dssp.DefaultUpdateResponseType,W3C.Soap.Fault})">
+            <summary>
+            Bumpers Update
+            </summary>
+        </member>
+        <member name="T:Microsoft.Robotics.Services.ExplorerSim.Proxy.DriveUpdate">
+            <summary>
+            Drive Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.DriveUpdate.#ctor">
+            <summary>
+            Drive Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.DriveUpdate.#ctor(Microsoft.Robotics.Services.Drive.Proxy.DriveDifferentialTwoWheelState)">
+            <summary>
+            Drive Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.DriveUpdate.#ctor(Microsoft.Robotics.Services.Drive.Proxy.DriveDifferentialTwoWheelState,Microsoft.Ccr.Core.PortSet{Microsoft.Dss.ServiceModel.Dssp.DefaultUpdateResponseType,W3C.Soap.Fault})">
+            <summary>
+            Drive Update
+            </summary>
+        </member>
+        <member name="T:Microsoft.Robotics.Services.ExplorerSim.Proxy.SonarUpdate">
+            <summary>
+            Sonar Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.SonarUpdate.#ctor">
+            <summary>
+            Sonar Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.SonarUpdate.#ctor(Microsoft.Robotics.Services.Sonar.Proxy.SonarState)">
+            <summary>
+            Sonar Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.SonarUpdate.#ctor(Microsoft.Robotics.Services.Sonar.Proxy.SonarState,Microsoft.Ccr.Core.PortSet{Microsoft.Dss.ServiceModel.Dssp.DefaultUpdateResponseType,W3C.Soap.Fault})">
+            <summary>
+            Sonar Update
+            </summary>
+        </member>
+        <member name="T:Microsoft.Robotics.Services.ExplorerSim.Proxy.LaserRangeFinderUpdate">
+            <summary>
+            Laser Range Finder Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.LaserRangeFinderUpdate.#ctor">
+            <summary>
+            Laser Range Finder Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.LaserRangeFinderUpdate.#ctor(Microsoft.Robotics.Services.Sensors.SickLRF.Proxy.State)">
+            <summary>
+            Laser Range Finder Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.LaserRangeFinderUpdate.#ctor(Microsoft.Robotics.Services.Sensors.SickLRF.Proxy.State,Microsoft.Ccr.Core.PortSet{Microsoft.Dss.ServiceModel.Dssp.DefaultUpdateResponseType,W3C.Soap.Fault})">
+            <summary>
+            Laser Range Finder Update
+            </summary>
+        </member>
+        <member name="T:Microsoft.Robotics.Services.ExplorerSim.Proxy.LaserRangeFinderResetUpdate">
+            <summary>
+            Laser Range Finder Reset Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.LaserRangeFinderResetUpdate.#ctor">
+            <summary>
+            Laser Range Finder Reset Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.LaserRangeFinderResetUpdate.#ctor(Microsoft.Robotics.Services.Sensors.SickLRF.Proxy.ResetType)">
+            <summary>
+            Laser Range Finder Reset Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.LaserRangeFinderResetUpdate.#ctor(Microsoft.Robotics.Services.Sensors.SickLRF.Proxy.ResetType,Microsoft.Ccr.Core.PortSet{Microsoft.Dss.ServiceModel.Dssp.DefaultUpdateResponseType,W3C.Soap.Fault})">
+            <summary>
+            Laser Range Finder Reset Update
+            </summary>
+        </member>
+        <member name="T:Microsoft.Robotics.Services.ExplorerSim.Proxy.WatchDogUpdate">
+            <summary>
+            Watch Dog Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.WatchDogUpdate.#ctor">
+            <summary>
+            Watch Dog Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.WatchDogUpdate.#ctor(Microsoft.Robotics.Services.ExplorerSim.Proxy.WatchDogUpdateRequest)">
+            <summary>
+            Watch Dog Update
+            </summary>
+        </member>
+        <member name="M:Microsoft.Robotics.Services.ExplorerSim.Proxy.WatchDogUpdate.#ctor(Microsoft.Robotics.Services.ExplorerSim.Proxy.WatchDogUpdateRequest,Microsoft.Ccr.Core.PortSet{Microsoft.Dss.ServiceModel.Dssp.DefaultUpdateResponseType,W3C.Soap.Fault})">
+            <summary>
+            Watch Dog Update
+            </summary>
+        </member>
+        <member name="T:Microsoft.Robotics.Services.ExplorerSim.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Robotics.Services.ExplorerSim.Properties.Resources.DssModel">
+            <summary>
+              Looks up a resource file similar to DssModel.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MazeSimulatorRA.Y2006.M08.Proxy</name>
+    </assembly>
+    <members>
+        <member name="T:Cranium.Simulation.Worlds.Proxy.Contract">
+            <summary>
+            MazeSimulator Contract
+            </summary>
+        </member>
+        <member name="F:Cranium.Simulation.Worlds.Proxy.Contract.Identifier">
+            The Unique Contract Identifier for the MazeSimulator service
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.Contract.ServiceModel">
+            The Dss Service dssModel Contract(s)
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>
+            Creates an instance of the service associated with this contract
+            </summary>
+            <param name="contructorServicePort">Contractor Service that will create the instance</param>
+            <param name="partners">Optional list of service partners for new service instance</param>
+            <returns>Result PortSet for retrieving service creation response</returns>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort)">
+            <summary>
+            Creates an instance of the service associated with this contract
+            </summary>
+            <param name="contructorServicePort">Contractor Service that will create the instance</param>
+            <returns>Result PortSet for retrieving service creation response</returns>
+        </member>
+        <member name="T:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState">
+            <summary>
+            Maze Simulator State
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+            <summary>
+            Copy To Maze Simulator State
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.Clone">
+            <summary>
+            Clone Maze Simulator State
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.Serialize(System.IO.BinaryWriter)">
+            <summary>
+            Serialize Serialize
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.Deserialize(System.IO.BinaryReader)">
+            <summary>
+            Deserialize Deserialize
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.Maze">
+            <summary>
+            Maze
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.GroundTexture">
+            <summary>
+            Ground Texture
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.WallTextures">
+            <summary>
+            Wall Textures
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.WallColors">
+            <summary>
+            Wall Colors
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.HeightMap">
+            <summary>
+            Height Map
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.MassMap">
+            <summary>
+            Mass Map
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.UseSphere">
+            <summary>
+            Use Sphere
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.WallBoxSize">
+            <summary>
+            Wall Box Size
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.GridSpacing">
+            <summary>
+            Grid Spacing
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.HeightScale">
+            <summary>
+            Height Scale
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.DefaultHeight">
+            <summary>
+            Default Height
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.SphereScale">
+            <summary>
+            Sphere Scale
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.RobotStartCellRow">
+            <summary>
+            Robot Start Cell Row
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.RobotStartCellCol">
+            <summary>
+            Robot Start Cell Col
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.RobotType">
+            <summary>
+            Robot Type
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.UseLRF">
+            <summary>
+            UseLRF
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Proxy.MazeSimulatorState.UseSonar">
+            <summary>
+            Use Sonar
+            </summary>
+        </member>
+        <member name="T:Cranium.Simulation.Worlds.Proxy.MazeSimulatorOperations">
+            <summary>
+            Maze Simulator Operations
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.MazeSimulatorOperations.DsspDefaultLookup">
+            <summary>
+            Required Lookup request body type
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.MazeSimulatorOperations.DsspDefaultLookup(Microsoft.Dss.ServiceModel.Dssp.LookupRequestType)">
+            <summary>
+            Post Dssp Default Lookup and return the response port.
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.MazeSimulatorOperations.DsspDefaultDrop">
+            <summary>
+            A request to drop the service.
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.MazeSimulatorOperations.DsspDefaultDrop(Microsoft.Dss.ServiceModel.Dssp.DropRequestType)">
+            <summary>
+            Post Dssp Default Drop and return the response port.
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.MazeSimulatorOperations.Get">
+            <summary>
+            Required Get body type
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.MazeSimulatorOperations.Get(Microsoft.Dss.ServiceModel.Dssp.GetRequestType)">
+            <summary>
+            Post Get and return the response port.
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.MazeSimulatorOperations.Replace">
+            <summary>
+            Maze Simulator State
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.MazeSimulatorOperations.Replace(Cranium.Simulation.Worlds.Proxy.MazeSimulatorState)">
+            <summary>
+            Post Replace and return the response port.
+            </summary>
+        </member>
+        <member name="T:Cranium.Simulation.Worlds.Proxy.Get">
+            <summary>
+            Get
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.Get.#ctor">
+            <summary>
+            Get
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.Get.#ctor(Microsoft.Dss.ServiceModel.Dssp.GetRequestType)">
+            <summary>
+            Get
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.Get.#ctor(Microsoft.Dss.ServiceModel.Dssp.GetRequestType,Microsoft.Ccr.Core.PortSet{Cranium.Simulation.Worlds.Proxy.MazeSimulatorState,W3C.Soap.Fault})">
+            <summary>
+            Get
+            </summary>
+        </member>
+        <member name="T:Cranium.Simulation.Worlds.Proxy.Replace">
+            <summary>
+            Replace
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.Replace.#ctor">
+            <summary>
+            Replace
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.Replace.#ctor(Cranium.Simulation.Worlds.Proxy.MazeSimulatorState)">
+            <summary>
+            Replace
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Worlds.Proxy.Replace.#ctor(Cranium.Simulation.Worlds.Proxy.MazeSimulatorState,Microsoft.Ccr.Core.PortSet{Microsoft.Dss.ServiceModel.Dssp.DefaultReplaceResponseType,W3C.Soap.Fault})">
+            <summary>
+            Replace
+            </summary>
+        </member>
+        <member name="T:Cranium.Simulation.Worlds.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Worlds.Properties.Resources.DssModel">
+            <summary>
+              Looks up a resource file similar to DssModel.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplorerSim.Y2007.M06.proxy", "ExplorerSim.Y2007.M06.proxy.csproj", "{96EA91BF-8AB1-4197-B04B-B1C1115EE9AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96EA91BF-8AB1-4197-B04B-B1C1115EE9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96EA91BF-8AB1-4197-B04B-B1C1115EE9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96EA91BF-8AB1-4197-B04B-B1C1115EE9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96EA91BF-8AB1-4197-B04B-B1C1115EE9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

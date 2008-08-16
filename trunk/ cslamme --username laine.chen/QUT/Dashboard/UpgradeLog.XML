@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Dashboard">
+</Property><Property Name="Solution File" Value="C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Dashboard.sln">
+</Property><Property Name="User Options File" Value="C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Dashboard.suo">
+</Property><Property Name="Date" Value="Wednesday, August 13, 2008">
+</Property><Property Name="Time" Value="15:41 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Dashboard.sln" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\Dashboard.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Dashboard.suo" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\Dashboard.suo">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="Dashboard.csproj" Description="Project file successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\Dashboard.csproj">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="Dashboard.csproj.user" Description="Project user file successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\Dashboard.csproj.user">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="AboutBox.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\AboutBox.cs">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="AboutBox.Designer.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\AboutBox.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="DriveControl.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\DriveControl.cs">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="DriveControl.Designer.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\DriveControl.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="Options.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\Options.cs">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="Options.Designer.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\Options.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="Dashboard.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\Dashboard.cs">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="DashboardState.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\DashboardState.cs">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="DashboardTypes.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\DashboardTypes.cs">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="WebCamForm.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\WebCamForm.cs">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="WebCamForm.Designer.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\WebCamForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="Dashboard.manifest.xml" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\Dashboard.manifest.xml">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="AboutBox.resx" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\AboutBox.resx">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="DriveControl.resx" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\DriveControl.resx">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="Options.resx" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\Options.resx">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="WebCamForm.resx" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\Dashboard\Backup\WebCamForm.resx">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="Dashboard.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Dashboard" Source="Dashboard.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Dashboard.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Dashboard.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Dashboard" Source="Dashboard.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

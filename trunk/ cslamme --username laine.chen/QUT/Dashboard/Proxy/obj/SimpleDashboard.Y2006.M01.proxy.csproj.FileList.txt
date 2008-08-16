@@ -1,0 +1,8 @@
+D:\Microsoft Robotics Studio (September 2006)\bin\services\SimpleDashboard.Y2006.M01.Proxy.dll
+D:\Microsoft Robotics Studio (September 2006)\bin\services\SimpleDashboard.Y2006.M01.Proxy.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Microsoft.Robotics.Services.SimpleDashboard.Resources.DssModel.dss
+obj\Debug\Microsoft.Robotics.Services.SimpleDashboard.Properties.Resources.resources
+obj\Debug\SimpleDashboard.Y2006.M01.proxy.csproj.GenerateResource.Cache
+obj\Debug\SimpleDashboard.Y2006.M01.Proxy.dll
+obj\Debug\SimpleDashboard.Y2006.M01.Proxy.pdb

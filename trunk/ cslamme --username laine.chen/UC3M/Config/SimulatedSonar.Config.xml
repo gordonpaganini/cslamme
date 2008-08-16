@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SonarState xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:d="http://schemas.microsoft.com/xw/2004/10/dssp.html" xmlns="http://schemas.microsoft.com/robotics/2006/06/sonar.html">
+  <TimeStamp>2008-08-11T13:45:56.2523511+08:00</TimeStamp>
+  <HardwareIdentifier>0</HardwareIdentifier>
+  <MaxDistance>4000</MaxDistance>
+  <DistanceMeasurement>0</DistanceMeasurement>
+  <AngularRange>196</AngularRange>
+  <AngularResolution>1</AngularResolution>
+  <Pose>
+    <Position xmlns="http://schemas.microsoft.com/robotics/2006/07/physicalmodel.html">
+      <X>0</X>
+      <Y>0</Y>
+      <Z>0</Z>
+    </Position>
+    <Orientation xmlns="http://schemas.microsoft.com/robotics/2006/07/physicalmodel.html">
+      <X>0</X>
+      <Y>0</Y>
+      <Z>0</Z>
+      <W>0</W>
+    </Orientation>
+  </Pose>
+  <DistanceMeasurements>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+  </DistanceMeasurements>
+</SonarState>

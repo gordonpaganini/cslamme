@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ExplorerSimSonar">
+</Property><Property Name="Solution File" Value="C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\ExplorerSimSonar.sln">
+</Property><Property Name="User Options File" Value="C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\ExplorerSimSonar.suo">
+</Property><Property Name="Date" Value="Friday, August 15, 2008">
+</Property><Property Name="Time" Value="13:58 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ExplorerSimSonar.sln" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\Backup\ExplorerSimSonar.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ExplorerSimSonar.suo" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\Backup\ExplorerSimSonar.suo">
+</Event><Event ErrorLevel="0" Project="ExplorerSimSonar" Source="ExplorerSimSonar.csproj" Description="Project file successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\Backup\ExplorerSimSonar.csproj">
+</Event><Event ErrorLevel="0" Project="ExplorerSimSonar" Source="ExplorerSimSonar.csproj.user" Description="Project user file successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\Backup\ExplorerSimSonar.csproj.user">
+</Event><Event ErrorLevel="0" Project="ExplorerSimSonar" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ExplorerSimSonar" Source="ExplorerSimSonar.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\Backup\ExplorerSimSonar.cs">
+</Event><Event ErrorLevel="0" Project="ExplorerSimSonar" Source="ExplorerSimSonarState.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\Backup\ExplorerSimSonarState.cs">
+</Event><Event ErrorLevel="0" Project="ExplorerSimSonar" Source="ExplorerSimSonarTypes.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\Backup\ExplorerSimSonarTypes.cs">
+</Event><Event ErrorLevel="0" Project="ExplorerSimSonar" Source="MapForm.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\Backup\MapForm.cs">
+</Event><Event ErrorLevel="0" Project="ExplorerSimSonar" Source="MapForm.Designer.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\Backup\MapForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ExplorerSimSonar" Source="Mapper.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\Backup\Mapper.cs">
+</Event><Event ErrorLevel="0" Project="ExplorerSimSonar" Source="ExplorerSimSonar.manifest.xml" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\Backup\ExplorerSimSonar.manifest.xml">
+</Event><Event ErrorLevel="0" Project="ExplorerSimSonar" Source="ExplorerSonar.manifest.xml" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\Backup\ExplorerSonar.manifest.xml">
+</Event><Event ErrorLevel="0" Project="ExplorerSimSonar" Source="MapForm.resx" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\ExplorerSimSonar\Backup\MapForm.resx">
+</Event><Event ErrorLevel="0" Project="ExplorerSimSonar" Source="ExplorerSimSonar.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ExplorerSimSonar" Source="ExplorerSimSonar.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ExplorerSimSonar.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ExplorerSimSonar.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ExplorerSimSonar" Source="ExplorerSimSonar.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
