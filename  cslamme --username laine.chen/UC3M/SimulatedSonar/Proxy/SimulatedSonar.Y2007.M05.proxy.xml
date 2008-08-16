@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimulatedSonar.Y2007.M05.Proxy</name>
+    </assembly>
+    <members>
+        <member name="T:Cranium.Simulation.Sensors.Proxy.Contract">
+            <summary>
+            SimulatedSonar Contract
+            </summary>
+        </member>
+        <member name="F:Cranium.Simulation.Sensors.Proxy.Contract.Identifier">
+            The Unique Contract Identifier for the SimulatedSonar service
+        </member>
+        <member name="M:Cranium.Simulation.Sensors.Proxy.Contract.ServiceModel">
+            The Dss Service dssModel Contract(s)
+        </member>
+        <member name="M:Cranium.Simulation.Sensors.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>
+            Creates an instance of the service associated with this contract
+            </summary>
+            <param name="contructorServicePort">Contractor Service that will create the instance</param>
+            <param name="partners">Optional list of service partners for new service instance</param>
+            <returns>Result PortSet for retrieving service creation response</returns>
+        </member>
+        <member name="M:Cranium.Simulation.Sensors.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort)">
+            <summary>
+            Creates an instance of the service associated with this contract
+            </summary>
+            <param name="contructorServicePort">Contractor Service that will create the instance</param>
+            <returns>Result PortSet for retrieving service creation response</returns>
+        </member>
+        <member name="T:Cranium.Simulation.Sensors.Proxy.SonarEntity">
+            <summary>
+            Sonar Entity
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Sensors.Proxy.SonarEntity.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+            <summary>
+            Copy To Sonar Entity
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Sensors.Proxy.SonarEntity.Clone">
+            <summary>
+            Clone Sonar Entity
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Sensors.Proxy.SonarEntity.Serialize(System.IO.BinaryWriter)">
+            <summary>
+            Serialize Serialize
+            </summary>
+        </member>
+        <member name="M:Cranium.Simulation.Sensors.Proxy.SonarEntity.Deserialize(System.IO.BinaryReader)">
+            <summary>
+            Deserialize Deserialize
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Sensors.Proxy.SonarEntity.SonarBox">
+            <summary>
+            Sonar Box
+            </summary>
+        </member>
+        <member name="T:Cranium.Simulation.Sensors.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Sensors.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Sensors.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Cranium.Simulation.Sensors.Properties.Resources.DssModel">
+            <summary>
+              Looks up a resource file similar to DssModel.
+            </summary>
+        </member>
+    </members>
+</doc>

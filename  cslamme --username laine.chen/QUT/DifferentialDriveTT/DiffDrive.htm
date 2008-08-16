@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>MSRS Simulated Differential Drive Service</title>
+    <link href="Styles/Standard.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="page">
+<a href="http://sky.fit.qut.edu.au/~taylort2/MSRS/index.htm"><img src="Images/MSRSCodePage.jpg" alt="MSRS Code Page Home" border="0" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/DiffDriveBanner.gif" alt="Differential Drive" />
+<hr />
+<p class="heading"><span class="dropcap">S</span>imulated Differential Drive</p>
+<p>
+NOTE: THIS SERVICE IS REQUIRED TO RUN THE MAZE SIMULATOR, WHICH
+IS REQUIRED FOR THE INTRO AND EXPLORER SERVICES.
+</p>
+<p>
+The Simulated Differential Drive is a key component of
+simulated robots. In version 1.0 of MSRS it did not
+support two key functions that were required for the
+Explorer service: RotateDegrees and DriveDistance.
+I decided to implement these during the development
+of version 1.5 based on a Community Technology Preview.
+</p>
+<p>
+With the release of version 1.5, Microsoft has provided
+these functions. However, the implementations have some
+minor bugs (which I have reported), so I continue to use
+my own version.
+</p>
+<p>
+The other reason for using my own version is that it obtains
+the pose from the simulation entites so that mapping can be
+performed. This is clearly cheating because a real robot
+cannot simply read its coordinates and orientation from
+some magic sensor. However, for the purposes of learning
+about how to draw maps this is useful.
+</p>
+<p>
+The code picks up the pose information from the simulated
+differential drive entity. It then places this info into
+the Left and Right Wheel pose fields. (Currently, these pose
+fields for the wheels are not updated by the Microsoft software.)
+I would have preferred to put it
+into the pose of the Differential Drive itself, but there
+is no such field defined in the generic differential drive
+and I did not want to create an alternate contract just for
+this one field.
+</p>
+<p>
+Note that the same pose is copied
+to BOTH of the wheels, which is not correct. The actual
+pose for each wheel should be offset by half of the wheelbase,
+but since the objective is simply to find the location of
+the differential drive itself, I do not bother to calculate
+the correct wheel locations.
+</p>
+<h2>Legal Stuff</h2>
+<p>
+This code is a hack to the Microsoft Simulated Differential Drive. I don't
+claim any rights to the code. There could be bugs in my code because I might
+not have fully understood how the Microsoft code works.
+</p>
+
+<a href="http://sky.fit.qut.edu.au/~taylort2/MSRS/index.htm">[&nbsp;MSRS Code Page&nbsp;]</a>
+
+<hr />
+<div class="footer">
+Page maintained by:
+<a href="m&#97;&#105;&#108;t&#111;:T.Taylor&#64;qut&#46;edu&#46;au">T.Taylor&#64;qut.edu.au</a>
+&nbsp;&nbsp;&nbsp;Last Updated: 18-Jul-2007
+</div>
+
+</div>
+
+</body>
+</html>

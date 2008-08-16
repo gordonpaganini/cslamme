@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ExplorerSim">
+</Property><Property Name="Solution File" Value="C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\ExplorerSim.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\ExplorerSim.suo">
+</Property><Property Name="Date" Value="Wednesday, August 13, 2008">
+</Property><Property Name="Time" Value="15:18 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ExplorerSim.sln" Description="File successfully backed up as C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Backup\ExplorerSim.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ExplorerSim.suo" Description="File successfully backed up as C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Backup\ExplorerSim.suo">
+</Event><Event ErrorLevel="0" Project="ExplorerSim" Source="ExplorerSim.csproj" Description="Project file successfully backed up as C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Backup\ExplorerSim.csproj">
+</Event><Event ErrorLevel="0" Project="ExplorerSim" Source="ExplorerSim.csproj.user" Description="Project user file successfully backed up as C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Backup\ExplorerSim.csproj.user">
+</Event><Event ErrorLevel="0" Project="ExplorerSim" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ExplorerSim" Source="ExplorerSim.cs" Description="File successfully backed up as C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Backup\ExplorerSim.cs">
+</Event><Event ErrorLevel="0" Project="ExplorerSim" Source="ExplorerSimState.cs" Description="File successfully backed up as C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Backup\ExplorerSimState.cs">
+</Event><Event ErrorLevel="0" Project="ExplorerSim" Source="ExplorerSimTypes.cs" Description="File successfully backed up as C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Backup\ExplorerSimTypes.cs">
+</Event><Event ErrorLevel="0" Project="ExplorerSim" Source="MapForm.cs" Description="File successfully backed up as C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Backup\MapForm.cs">
+</Event><Event ErrorLevel="0" Project="ExplorerSim" Source="MapForm.Designer.cs" Description="File successfully backed up as C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Backup\MapForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ExplorerSim" Source="Mapper.cs" Description="File successfully backed up as C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Backup\Mapper.cs">
+</Event><Event ErrorLevel="0" Project="ExplorerSim" Source="ExplorerSim.manifest.xml" Description="File successfully backed up as C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Backup\ExplorerSim.manifest.xml">
+</Event><Event ErrorLevel="0" Project="ExplorerSim" Source="MapForm.resx" Description="File successfully backed up as C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Backup\MapForm.resx">
+</Event><Event ErrorLevel="0" Project="ExplorerSim" Source="ExplorerSim.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ExplorerSim" Source="ExplorerSim.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ExplorerSim.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ExplorerSim.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ExplorerSim" Source="ExplorerSim.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

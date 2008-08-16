@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>MSRS Code Page</title>
+    <link href="Styles/Standard.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="page">
+<img src="Images/MSRSCodePage.jpg" alt="MSRS Code Page Home" border="0" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/HomeBanner.gif" alt="Microsoft Robotics Studio Code Page" />
+<hr />
+<p class="heading"><span class="dropcap">O</span>verview</p>
+<p>
+Welcome to the page for my MSRS (<a href="http://www.microsoft.com/robotics">Microsoft Robotics Studio</a>) code.
+</p>
+<p>
+<a href="Images/X80y_L.jpg"><img src="Images/X80y_S.jpg" align="left" alt="X80 Robot" border="0" /></a> I am
+working on code for my X80 Robots, Tobor and Gelb, so that they can
+be controlled using MSRS.
+This is what Gelb looks like. (Click on the picture for a larger view.)<br />
+&nbsp;<br />
+<a href="http://www.drrobot.com/products_item.asp?itemNumber=X80">X80 robots</a> are manufactured by <a href="http://www.drrobot.com">Dr.Robot, Inc.</a> in Canada. They have Wireless
+Ethernet to connect back to a host computer. Onboard sensors include
+a pan and tilt camera, sonar, infra-red and of course wheel encoders.<br />
+&nbsp;<br />
+I have completed work on a program to control an X80 using a
+PDA with WiFi. (See my <a href="http://sky.fit.qut.edu.au/~taylort2/X80/">X80 Home Page</a> for details.)
+This was the first step in porting my code across to
+MSRS because it involved translating from unmanaged C++ under Visual
+Studio 2003 to managed C# under Visual Studio 2005 (the MSRS development
+environment).
+</p>
+<br clear="all" />
+
+<h2>Site Contents</h2>
+<p>This site contains code examples for use with the Microsoft
+Robotics Studio. I will continue to add to it over time.
+My ultimate objective is to provide a set of modules for use in an
+introductory Robotics Course. Note that the target audience is high school
+or undergraduate students with a limited amount of programming experience.
+Also, my interests are Computer Vision and SLAM (Simultaneous Localization
+and Mapping). This requires a fair amount of work.
+</p>
+<p>
+Comments, feedback and suggestions are welcome. Please send e-mail to me using the
+address in the page footer. Some additional <a href="#Personal">personal
+details</a> are available below.
+</p>
+<p>
+Please note that I cannot provide support for MSRS -- there are not enough hours
+in the day! You should use the
+<a href="http://forums.microsoft.com/MSDN/default.aspx?ForumGroupID=383&SiteID=1">Discussion Forums</a>
+provided by Microsoft.
+</p>
+<p>
+If you are interested in technical details, you are welcome to read my development notes
+for the <a href="MazeSimulator/MazeSimulatorNotes.txt">Maze Simulator</a> and 
+<a href="Intro/IntroNotes.txt">Intro Program</a> that I made while working on the code.
+These are just raw notes. At some stage I might extract the useful info and put it
+on a web page.
+</p>
+<p>
+If you are new to MSRS, I suggest that you download the code below for the Maze
+Simulator, Intro Program and Explorer. Once you can get these
+programs running, you can start experimenting with the code.
+</p>
+
+<h3>Software</h3>
+<p>The following software is continuously under development.
+I don't claim that this is wonderful code -- but it works!</p>
+<ul>
+<li>
+<a href="Intro/Intro.htm">Intro to Autonomous Robotics</a> A sample program
+that uses the bump sensors on a simulated Pioneer robot to allow it to
+wander around inside a maze. REQUIRES THE MAZE SIMULATOR BELOW.
+</li>
+<li>
+<a href="ExplorerSim/Explorer.htm">Explorer Sim</a> A sample program
+that uses the Laser Range Finder on a simulated Pioneer robot to allow it to
+wander around inside a maze and build a map. REQUIRES THE MAZE SIMULATOR 
+AND SIMULATED DIFFERENTIAL DRIVE BELOW.
+</li>
+<li><a href="MazeSimulator/MazeSimulator.htm">Maze Simulator</a> An updated
+version of the original code posted by Ben Axelrod on Channel 9. It creates
+a maze-like world in the Simulator based on a simple bitmap image for the maze.
+</li>
+<li><a href="Dashboard/Dashboard.htm">Simple Dashboard Mod</a> Changes to the
+Simple Dashboard to remember configuration settings and display a WebCam view.
+</li>
+<li><a href="DifferentialDriveTT/DiffDrive.htm">Simulated Differential Drive</a> Changes to the
+Simulated Differential Drive to support RotateDegrees and DriveDistance functions
+as well as to provide pose information for mapping.
+</li>
+</ul>
+<p>
+The following version is available now:<br />
+<a href="http://sky.fit.qut.edu.au/~taylort2/MSRS/Downloads/QUTJul2007.zip">QUT MSRS Apps</a> 18-Jul-2007<br />
+This version was built with the version 1.5 release of MSRS.
+It is provided as a complete package with all of the services included.
+Please read the <a href="readme.txt">readme.txt</a> for installation instructions.<br />
+</p>
+
+<h2><a name="Personal">Who Am I?</a></h2>
+<p>
+My name is Trevor Taylor. I am a Lecturer in the
+<a href="http://www.fit.qut.edu.au">Faculty of Information Technology</a>
+at the <a href="http://www.qut.edu.au">Queensland University of Technology</a>
+in Brisbane, Australia.
+My research interests include Computer Vision and Robotics.<br />
+Please go to my <a href="http://sky.fit.qut.edu.au/~taylort2">home page</a>
+for more information and contact details, or use the e-mail link below.
+</p>
+
+<hr />
+<div class="footer">
+Page maintained by:
+<a href="m&#97;&#105;&#108;t&#111;:T.Taylor&#64;qut&#46;edu&#46;au">T.Taylor&#64;qut.edu.au</a>
+&nbsp;&nbsp;&nbsp;Last Updated: 18-Jul-2007
+</div>
+
+</div>
+
+</body>
+</html>

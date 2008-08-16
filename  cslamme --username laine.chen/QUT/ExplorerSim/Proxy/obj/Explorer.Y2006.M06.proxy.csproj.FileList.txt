@@ -1,0 +1,8 @@
+C:\Microsoft Robotics Studio (1.0)\bin\services\Explorer.Y2006.M06.Proxy.dll
+C:\Microsoft Robotics Studio (1.0)\bin\services\Explorer.Y2006.M06.Proxy.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Microsoft.Robotics.Services.Explorer.Resources.DssModel.dss
+obj\Debug\Microsoft.Robotics.Services.Explorer.Properties.Resources.resources
+obj\Debug\Explorer.Y2006.M06.proxy.csproj.GenerateResource.Cache
+obj\Debug\Explorer.Y2006.M06.Proxy.dll
+obj\Debug\Explorer.Y2006.M06.Proxy.pdb

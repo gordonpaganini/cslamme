@@ -1,0 +1,7 @@
+C:\Microsoft Robotics Studio (1.5)\bin\ExplorerSim.Y2007.M06.dll
+C:\Microsoft Robotics Studio (1.5)\bin\ExplorerSim.Y2007.M06.pdb
+C:\Microsoft Robotics Studio (1.5)\Apps\QUT\ExplorerSim\obj\Release\ResolveAssemblyReference.cache
+C:\Microsoft Robotics Studio (1.5)\Apps\QUT\ExplorerSim\obj\Release\Microsoft.Robotics.Services.ExplorerSim.MapForm.resources
+C:\Microsoft Robotics Studio (1.5)\Apps\QUT\ExplorerSim\obj\Release\ExplorerSim.csproj.GenerateResource.Cache
+C:\Microsoft Robotics Studio (1.5)\Apps\QUT\ExplorerSim\obj\Release\ExplorerSim.Y2007.M06.dll
+C:\Microsoft Robotics Studio (1.5)\Apps\QUT\ExplorerSim\obj\Release\ExplorerSim.Y2007.M06.pdb

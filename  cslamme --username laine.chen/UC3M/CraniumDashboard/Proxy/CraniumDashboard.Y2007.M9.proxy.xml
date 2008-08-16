@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CraniumDashboard.Y2007.M9.Proxy</name>
+    </assembly>
+    <members>
+        <member name="T:Cranium.Controls.Proxy.Contract">
+            <summary>
+            Dashboard Contract
+            </summary>
+        </member>
+        <member name="F:Cranium.Controls.Proxy.Contract.Identifier">
+            The Unique Contract Identifier for the Dashboard service
+        </member>
+        <member name="M:Cranium.Controls.Proxy.Contract.ServiceModel">
+            The Dss Service dssModel Contract(s)
+        </member>
+        <member name="M:Cranium.Controls.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>
+            Creates an instance of the service associated with this contract
+            </summary>
+            <param name="contructorServicePort">Contractor Service that will create the instance</param>
+            <param name="partners">Optional list of service partners for new service instance</param>
+            <returns>Result PortSet for retrieving service creation response</returns>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort)">
+            <summary>
+            Creates an instance of the service associated with this contract
+            </summary>
+            <param name="contructorServicePort">Contractor Service that will create the instance</param>
+            <returns>Result PortSet for retrieving service creation response</returns>
+        </member>
+        <member name="T:Cranium.Controls.Proxy.StateType">
+            <summary>
+            State Type
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.StateType.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+            <summary>
+            Copy To State Type
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.StateType.Clone">
+            <summary>
+            Clone State Type
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.StateType.Serialize(System.IO.BinaryWriter)">
+            <summary>
+            Serialize Serialize
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.StateType.Deserialize(System.IO.BinaryReader)">
+            <summary>
+            Deserialize Deserialize
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.StateType.Log">
+            <summary>
+            Log
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.StateType.LogFile">
+            <summary>
+            Log File
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.StateType.Machine">
+            <summary>
+            Machine
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.StateType.Port">
+            <summary>
+            Port
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.StateType.Options">
+            <summary>
+            Options
+            </summary>
+        </member>
+        <member name="T:Cranium.Controls.Proxy.GUIOptions">
+            <summary>
+            GUI Options
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.GUIOptions.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+            <summary>
+            Copy To GUI Options
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.GUIOptions.Clone">
+            <summary>
+            Clone GUI Options
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.GUIOptions.Serialize(System.IO.BinaryWriter)">
+            <summary>
+            Serialize Serialize
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.GUIOptions.Deserialize(System.IO.BinaryReader)">
+            <summary>
+            Deserialize Deserialize
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.WindowStartX">
+            <summary>
+            Window StartX
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.WindowStartY">
+            <summary>
+            Window StartY
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.DeadZoneX">
+            <summary>
+            Dead ZoneX
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.DeadZoneY">
+            <summary>
+            Dead ZoneY
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.TranslateScaleFactor">
+            <summary>
+            Translate Scale Factor
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.RotateScaleFactor">
+            <summary>
+            Rotate Scale Factor
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.ShowLRF">
+            <summary>
+            ShowLRF
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.ShowArm">
+            <summary>
+            Show Arm
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.RobotWidth">
+            <summary>
+            Robot Width
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.DisplayMap">
+            <summary>
+            Display Map
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.MaxLRFRange">
+            <summary>
+            MaxLRF Range
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.MotionSpeed">
+            <summary>
+            Motion Speed
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.DriveDistance">
+            <summary>
+            Drive Distance
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.RotateAngle">
+            <summary>
+            Rotate Angle
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.CameraInterval">
+            <summary>
+            Camera Interval
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.SonarRange">
+            <summary>
+            Sonar Range
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.SonarRadians">
+            <summary>
+            Sonar Radians
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.SonarTransducerAngularRange">
+            <summary>
+            Sonar Transducer Angular Range
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Proxy.GUIOptions.DisplaySonarMap">
+            <summary>
+            Display Sonar Map
+            </summary>
+        </member>
+        <member name="T:Cranium.Controls.Proxy.DashboardOperations">
+            <summary>
+            Dashboard Operations
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.DashboardOperations.DsspDefaultLookup">
+            <summary>
+            Required Lookup request body type
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.DashboardOperations.DsspDefaultLookup(Microsoft.Dss.ServiceModel.Dssp.LookupRequestType)">
+            <summary>
+            Post Dssp Default Lookup and return the response port.
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.DashboardOperations.DsspDefaultDrop">
+            <summary>
+            A request to drop the service.
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.DashboardOperations.DsspDefaultDrop(Microsoft.Dss.ServiceModel.Dssp.DropRequestType)">
+            <summary>
+            Post Dssp Default Drop and return the response port.
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.DashboardOperations.Get">
+            <summary>
+            Required Get body type
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.DashboardOperations.Get(Microsoft.Dss.ServiceModel.Dssp.GetRequestType)">
+            <summary>
+            Post Get and return the response port.
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.DashboardOperations.Replace">
+            <summary>
+            State Type
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.DashboardOperations.Replace(Cranium.Controls.Proxy.StateType)">
+            <summary>
+            Post Replace and return the response port.
+            </summary>
+        </member>
+        <member name="T:Cranium.Controls.Proxy.Get">
+            <summary>
+            Get
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.Get.#ctor">
+            <summary>
+            Get
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.Get.#ctor(Microsoft.Dss.ServiceModel.Dssp.GetRequestType)">
+            <summary>
+            Get
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.Get.#ctor(Microsoft.Dss.ServiceModel.Dssp.GetRequestType,Microsoft.Ccr.Core.PortSet{Cranium.Controls.Proxy.StateType,W3C.Soap.Fault})">
+            <summary>
+            Get
+            </summary>
+        </member>
+        <member name="T:Cranium.Controls.Proxy.Replace">
+            <summary>
+            Replace
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.Replace.#ctor">
+            <summary>
+            Replace
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.Replace.#ctor(Cranium.Controls.Proxy.StateType)">
+            <summary>
+            Replace
+            </summary>
+        </member>
+        <member name="M:Cranium.Controls.Proxy.Replace.#ctor(Cranium.Controls.Proxy.StateType,Microsoft.Ccr.Core.PortSet{Microsoft.Dss.ServiceModel.Dssp.DefaultReplaceResponseType,W3C.Soap.Fault})">
+            <summary>
+            Replace
+            </summary>
+        </member>
+        <member name="T:Cranium.Controls.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Cranium.Controls.Properties.Resources.DssModel">
+            <summary>
+              Looks up a resource file similar to DssModel.
+            </summary>
+        </member>
+    </members>
+</doc>

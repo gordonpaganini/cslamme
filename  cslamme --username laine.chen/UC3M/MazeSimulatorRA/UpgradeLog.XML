@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MazeSimulatorRA">
+</Property><Property Name="Solution File" Value="C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\MazeSimulatorRA.sln">
+</Property><Property Name="User Options File" Value="C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\MazeSimulatorRA.suo">
+</Property><Property Name="Date" Value="Friday, August 15, 2008">
+</Property><Property Name="Time" Value="13:57 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MazeSimulatorRA.sln" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\Backup\MazeSimulatorRA.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MazeSimulatorRA.suo" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\Backup\MazeSimulatorRA.suo">
+</Event><Event ErrorLevel="0" Project="MazeSimulatorRA" Source="MazeSimulatorRA.csproj" Description="Project file successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\Backup\MazeSimulatorRA.csproj">
+</Event><Event ErrorLevel="0" Project="MazeSimulatorRA" Source="MazeSimulatorRA.csproj.user" Description="Project user file successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\Backup\MazeSimulatorRA.csproj.user">
+</Event><Event ErrorLevel="0" Project="MazeSimulatorRA" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MazeSimulatorRA" Source="MazeSimulatorRA.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\Backup\MazeSimulatorRA.cs">
+</Event><Event ErrorLevel="0" Project="MazeSimulatorRA" Source="MazeSimulatorRATypes.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\Backup\MazeSimulatorRATypes.cs">
+</Event><Event ErrorLevel="0" Project="MazeSimulatorRA" Source="mrisamples.snk" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\Backup\mrisamples.snk">
+</Event><Event ErrorLevel="0" Project="MazeSimulatorRA" Source="MazeSimulatorRA.manifest.xml" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\Backup\MazeSimulatorRA.manifest.xml">
+</Event><Event ErrorLevel="0" Project="MazeSimulatorRA" Source="MazeSimulatorRA.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MazeSimulatorRA" Source="MazeSimulatorRA.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MazeSimulatorRA.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MazeSimulatorRA.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MazeSimulatorRA" Source="MazeSimulatorRA.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

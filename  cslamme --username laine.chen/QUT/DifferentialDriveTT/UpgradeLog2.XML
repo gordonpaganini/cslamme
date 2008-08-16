@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SimulatedDifferentialDriveTT">
+</Property><Property Name="Solution File" Value="C:\Microsoft Robotics Studio (1.5)\Apps\QUT\DifferentialDriveTT\SimulatedDifferentialDriveTT.sln">
+</Property><Property Name="User Options File" Value="C:\Microsoft Robotics Studio (1.5)\Apps\QUT\DifferentialDriveTT\SimulatedDifferentialDriveTT.suo">
+</Property><Property Name="Date" Value="Friday, August 15, 2008">
+</Property><Property Name="Time" Value="13:54 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SimulatedDifferentialDriveTT.sln" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\DifferentialDriveTT\Backup1\SimulatedDifferentialDriveTT.sln">
+</Event><Event ErrorLevel="0" Project="" Source="SimulatedDifferentialDriveTT.suo" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\DifferentialDriveTT\Backup1\SimulatedDifferentialDriveTT.suo">
+</Event><Event ErrorLevel="0" Project="SimulatedDifferentialDriveTT" Source="SimulatedDifferentialDriveTT.csproj" Description="Project file successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\DifferentialDriveTT\Backup1\SimulatedDifferentialDriveTT.csproj">
+</Event><Event ErrorLevel="0" Project="SimulatedDifferentialDriveTT" Source="SimulatedDifferentialDriveTT.csproj.user" Description="Project user file successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\DifferentialDriveTT\Backup1\SimulatedDifferentialDriveTT.csproj.user">
+</Event><Event ErrorLevel="0" Project="SimulatedDifferentialDriveTT" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\DifferentialDriveTT\Backup1\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SimulatedDifferentialDriveTT" Source="SimDiffDriveEntities.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\DifferentialDriveTT\Backup1\SimDiffDriveEntities.cs">
+</Event><Event ErrorLevel="0" Project="SimulatedDifferentialDriveTT" Source="SimulatedDifferentialDrive.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\DifferentialDriveTT\Backup1\SimulatedDifferentialDrive.cs">
+</Event><Event ErrorLevel="0" Project="SimulatedDifferentialDriveTT" Source="SimulatedDifferentialDriveTypes.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\DifferentialDriveTT\Backup1\SimulatedDifferentialDriveTypes.cs">
+</Event><Event ErrorLevel="0" Project="SimulatedDifferentialDriveTT" Source="SimulatedDifferentialDrive.custom.proj" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\DifferentialDriveTT\Backup1\SimulatedDifferentialDrive.custom.proj">
+</Event><Event ErrorLevel="0" Project="SimulatedDifferentialDriveTT" Source="SimulatedDifferentialDriveTT.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SimulatedDifferentialDriveTT" Source="SimulatedDifferentialDriveTT.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SimulatedDifferentialDriveTT.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SimulatedDifferentialDriveTT.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SimulatedDifferentialDriveTT" Source="SimulatedDifferentialDriveTT.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

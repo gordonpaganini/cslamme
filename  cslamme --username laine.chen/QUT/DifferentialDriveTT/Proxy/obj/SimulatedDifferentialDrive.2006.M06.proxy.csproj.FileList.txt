@@ -1,0 +1,8 @@
+C:\Microsoft Robotics Studio (1.0)\bin\services\SimulatedDifferentialDrive.2006.M06.Proxy.dll
+C:\Microsoft Robotics Studio (1.0)\bin\services\SimulatedDifferentialDrive.2006.M06.Proxy.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Microsoft.Robotics.Services.Simulation.Drive.Resources.DssModel.dss
+obj\Debug\Microsoft.Robotics.Services.Simulation.Drive.Properties.Resources.resources
+obj\Debug\SimulatedDifferentialDrive.2006.M06.proxy.csproj.GenerateResource.Cache
+obj\Debug\SimulatedDifferentialDrive.2006.M06.Proxy.dll
+obj\Debug\SimulatedDifferentialDrive.2006.M06.Proxy.pdb
