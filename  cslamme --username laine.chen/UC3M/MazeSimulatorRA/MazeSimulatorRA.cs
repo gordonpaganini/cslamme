@@ -131,13 +131,14 @@ namespace Cranium.Simulation.Worlds
             CreationPolicy = PartnerCreationPolicy.UseExistingOrCreate)]
         private engineproxy.SimulationEnginePort _engineServicePort = new engineproxy.SimulationEnginePort();
 
-        [ServicePort("/mazesimulatorra", AllowMultipleInstances=false)]
+        [ServicePort("/mazesimulatorra", AllowMultipleInstances = false)]
         private MazeSimulatorOperations _mainPort = new MazeSimulatorOperations();
 
         /// <summary>
         /// Default Service Constructor
         /// </summary>
-        public MazeSimulatorService(DsspServiceCreationPort creationPort) : base(creationPort)
+        public MazeSimulatorService(DsspServiceCreationPort creationPort)
+            : base(creationPort)
         {
 
         }
@@ -162,22 +163,22 @@ namespace Cranium.Simulation.Worlds
         //
         public enum BasicColor : byte
         {
-            Black       = 0,
-            Red         = 1,
-            Lime        = 2,
-            Yellow      = 3,
-            Blue        = 4,
-            Magenta     = 5,
-            Cyan        = 6,
-            White       = 7,
-            DarkGrey    = 8,
-            Maroon      = 9,
-            Green       = 10,
-            Olive       = 11,
-            Navy        = 12,
-            Purple      = 13,
-            Cobalt      = 14,
-            Grey        = 15
+            Black = 0,
+            Red = 1,
+            Lime = 2,
+            Yellow = 3,
+            Blue = 4,
+            Magenta = 5,
+            Cyan = 6,
+            White = 7,
+            DarkGrey = 8,
+            Maroon = 9,
+            Green = 10,
+            Olive = 11,
+            Navy = 12,
+            Purple = 13,
+            Cobalt = 14,
+            Grey = 15
         }
 
         //-- TT
@@ -233,7 +234,7 @@ namespace Cranium.Simulation.Worlds
             // Plenty of others to try, e.g. concrete.jpg.
             if (_state.GroundTexture == null || _state.GroundTexture == "")
                 _state.GroundTexture = "cellfloor.jpg";
-                // _state.GroundTexture = "granito.bmp";
+            // _state.GroundTexture = "granito.bmp";
 
             // TT Dec-2006 - This is a fudge to support upgrading from
             // prior versions where the RobotType did not exist. When
@@ -254,7 +255,7 @@ namespace Cranium.Simulation.Worlds
                 _WallTextures[i] = _state.WallTextures[i];
             }
             // Fill any remaining textures with empty string
-            for ( ; i < 16; i++)
+            for (; i < 16; i++)
                 _WallTextures[i] = "";
 
             // Copy as many colors as specified
@@ -322,8 +323,8 @@ namespace Cranium.Simulation.Worlds
             // Publish the service to the local Node Directory
             DirectoryInsert();
 
-			// display HTTP service Uri
-			LogInfo(LogGroups.Console, "Service uri: ");
+            // display HTTP service Uri
+            LogInfo(LogGroups.Console, "Service uri: ");
 
             // Cache references to simulation/rendering and physics
             _physicsEngine = PhysicsEngine.GlobalInstance;
@@ -342,8 +343,8 @@ namespace Cranium.Simulation.Worlds
         {
             // Set up initial view
             CameraView view = new CameraView();
-//            view.EyePosition = new Vector3(0.0f, 6.41f, -5.41f);
-//            view.LookAtPoint = new Vector3(0.0f, 5.88f, -4.81f);
+            //            view.EyePosition = new Vector3(0.0f, 6.41f, -5.41f);
+            //            view.LookAtPoint = new Vector3(0.0f, 5.88f, -4.81f);
             // TT Jul-2007 - Move back a little to see more of the field
             // Note that these values angle the camera down at 45 degrees
             // looking along the Z axis
@@ -363,18 +364,34 @@ namespace Cranium.Simulation.Worlds
             AddGround();
             //AddMaze();
             //AddBox(new Vector3(1, 0, -1), "box10");
-            /*4 boundaries*/
+
+            /*Environment A*/
+            /*AddWall(-15, -15, 15, -16, 5.0f, BasicColor.Cyan);
+            AddWall(-15, 15, 15, 16, 5.0f, BasicColor.Cyan);
+            AddWall(-16, -15, -17, 16, 5.0f, BasicColor.Cyan);
+            AddWall(15, -15, 16, 16, 5.0f, BasicColor.Cyan);
+            AddWall(-8, -5, 8, 5, 5.0f, BasicColor.Cyan);*/
+
+            /*Environment B*/
+            /*AddWall(16, -1, 17, 31, 5.0f, BasicColor.Purple);
+            AddWall(-16, -1, -17, 31, 5.0f, BasicColor.Purple);
+            AddWall(-15, -1, 15, 0, 5.0f, BasicColor.Purple);
+            AddWall(-15, 30, 15, 31, 5.0f, BasicColor.Purple);*/
+
+            /* Environment C*/
             AddWall(-15, -15, 15, -16, 5.0f, BasicColor.Cyan);
             AddWall(-15, 15, 15, 16, 5.0f, BasicColor.Cyan);
             AddWall(-16, -15, -17, 16, 5.0f, BasicColor.Cyan);
             AddWall(15, -15, 16, 16, 5.0f, BasicColor.Cyan);
 
-            /*other walls*/
-            AddWall(-8, -5, 8, 5, 5.0f, BasicColor.Cyan);
+            AddWall(8, -8, 9, -3, 5.0f, BasicColor.Cyan);
+            AddWall(-9, -8, 7, -9, 5.0f, BasicColor.Cyan);
+            AddWall(-7, 8, 9, 9, 5.0f, BasicColor.Cyan);
+            AddWall(-8, 3, -9, 9, 5.0f, BasicColor.Cyan);
 
             AddRobot(new Vector3(1.0f, 0.0f, 1.0f));
         }
-        
+
         void AddSky()
         {
             // Add a sky using a static texture. We will use the sky texture
@@ -416,7 +433,7 @@ namespace Cranium.Simulation.Worlds
         void AddBox(Vector3 position, string name)
         {
             Vector3 dimensions =
-                new Vector3(3.0f, 0.3f, 0.1f); // meters
+                new Vector3(3.0f, 0.3f, 0.3f); // meters
 
             // create simple movable entity, with a single shape
             /*SingleShapeEntity box = new SingleShapeEntity(
@@ -629,7 +646,7 @@ namespace Cranium.Simulation.Worlds
 
             if (OptimizeBlocks)
             {
-                Console.WriteLine("\nOptimization reduced number of wall blocks to: " + BlockCounter +"\n");
+                Console.WriteLine("\nOptimization reduced number of wall blocks to: " + BlockCounter + "\n");
             }
 
         }
@@ -671,9 +688,9 @@ namespace Cranium.Simulation.Worlds
                 valMin = Math.Min(valMin, b);
                 normMax = (float)valMax;
                 normMin = (float)valMin;
-				normMax /= rgbSum;
-				normMin /= rgbSum;
-				normRange = normMax - normMin;
+                normMax /= rgbSum;
+                normMin /= rgbSum;
+                normRange = normMax - normMin;
                 if (normRange < GreyTolerance)
                 {
                     if (normMax >= 160)
@@ -691,11 +708,11 @@ namespace Cranium.Simulation.Worlds
                 if (valMax < 160)
                 {
                     color += 8;
-                    if (r >= ColorThreshold/2)
+                    if (r >= ColorThreshold / 2)
                         color += 1;
-                    if (g >= ColorThreshold/2)
+                    if (g >= ColorThreshold / 2)
                         color += 2;
-                    if (b >= ColorThreshold/2)
+                    if (b >= ColorThreshold / 2)
                         color += 4;
                 }
                 else
@@ -781,10 +798,10 @@ namespace Cranium.Simulation.Worlds
 
 
         //TT -- Changed to include height and color
-//        void AddWall(int row, int col)
-//        {
-//            AddWall(row, col, DefaultHeight, BasicColor.White);
-//        }
+        //        void AddWall(int row, int col)
+        //        {
+        //            AddWall(row, col, DefaultHeight, BasicColor.White);
+        //        }
 
         // Adds a simple cube at a specified location in the maze grid
         void AddWall(int row, int col, float height, BasicColor color)
@@ -797,7 +814,7 @@ namespace Cranium.Simulation.Worlds
                 SingleShapeEntity sphere = null;
                 float radius;
 
-                radius = _state.SphereScale *  height / 2.0f;
+                radius = _state.SphereScale * height / 2.0f;
 
                 // create simple entity, with a single shape
                 cSphereShape = new SphereShapeProperties(
@@ -884,10 +901,10 @@ namespace Cranium.Simulation.Worlds
         }
 
         // TT -- Changed to add a height and color
-//        void AddWall(int startRow, int startCol, int endRow, int endCol)
-//        {
-//            AddWall(startRow, startCol, endRow, endCol, DefaultHeight);
-//        }
+        //        void AddWall(int startRow, int startCol, int endRow, int endCol)
+        //        {
+        //            AddWall(startRow, startCol, endRow, endCol, DefaultHeight);
+        //        }
 
         // Adds a long wall in the maze grid
         // Useful for reducing number of elements in simulation for better performance
@@ -898,8 +915,8 @@ namespace Cranium.Simulation.Worlds
             int width = Math.Abs(endCol - startCol) + 1;
             int height = Math.Abs(endRow - startRow) + 1;
 
-            float realWidth = (width * _state.GridSpacing) - (_state.GridSpacing - _state.WallBoxSize*_state.GridSpacing);
-            float realHeight = (height * _state.GridSpacing) - (_state.GridSpacing - _state.WallBoxSize*_state.GridSpacing);
+            float realWidth = (width * _state.GridSpacing) - (_state.GridSpacing - _state.WallBoxSize * _state.GridSpacing);
+            float realHeight = (height * _state.GridSpacing) - (_state.GridSpacing - _state.WallBoxSize * _state.GridSpacing);
 
             //because the box is placed relative to the center of mass
             float widthOffset = (Math.Abs(endCol - startCol) * _state.GridSpacing) / 2;
@@ -955,7 +972,7 @@ namespace Cranium.Simulation.Worlds
 
                 sphere = new SingleShapeEntity(new SphereShape(cSphereShape),
                     new Vector3((startCol * -_state.GridSpacing) - widthOffset,
-                                radius*2,
+                                radius * 2,
                                 -(startRow * _state.GridSpacing) + heightOffset)
                     );
 
@@ -996,7 +1013,7 @@ namespace Cranium.Simulation.Worlds
                 // This object is a wall (stretched cube)
                 Vector3 dimensions =
                     new Vector3(realWidth, boxSize * _state.HeightScale, realHeight);
-                        // Dimensions are in meters
+                // Dimensions are in meters
                 BoxShapeProperties cBoxShape = null;
                 SingleShapeEntity box = null;
 
@@ -1007,7 +1024,7 @@ namespace Cranium.Simulation.Worlds
                         _WallMasses[(byte)color], // mass in kilograms.
                         new Pose(),     // relative pose
                         dimensions);    // dimensions
-//                cBoxShape = new BoxShapeProperties(0, new Pose(), dimensions);
+                //                cBoxShape = new BoxShapeProperties(0, new Pose(), dimensions);
                 // Walls have the same properties as the ground
                 cBoxShape.Material = new MaterialProperties("gbox", 0.8f, 0.5f, 0.8f);
                 // Set the color of the box according to the bitmap image
@@ -1024,7 +1041,7 @@ namespace Cranium.Simulation.Worlds
                 }
                 else
                     cBoxShape.TextureFileName = _WallTextures[(byte)color];
-                    
+
                 // Raul
                 if (color == BasicColor.White)
                 {
@@ -1102,7 +1119,7 @@ namespace Cranium.Simulation.Worlds
                 // Raul - Insert Sonar
                 robotBaseEntity.InsertEntity(sonar1);
             }
-                        
+
 
             // Create bumper array entity and start simulated bumper service
             BumperArrayEntity bumperArray = CreateBumperArray();
@@ -1185,7 +1202,7 @@ namespace Cranium.Simulation.Worlds
         {
             // Create a Sonar Entity.
             // Place it 30cm above base CenterofMass. 
-            SonarEntity sonar = new SonarEntity( new Pose(new Vector3(dx, 0.10f, 0)) );
+            SonarEntity sonar = new SonarEntity(new Pose(new Vector3(dx, 0.30f, 0)));
 
             sonar.State.Name = "SimulatedSonar";
             // TT - From Oct CTP
@@ -1201,7 +1218,7 @@ namespace Cranium.Simulation.Worlds
         }
 
 
-        
+
         private LaserRangeFinderEntity CreateLaserRangeFinder()
         {
             // Create a Laser Range Finder Entity.
@@ -1221,7 +1238,7 @@ namespace Cranium.Simulation.Worlds
                 "http://localhost/" + laser.State.Name));
             return laser;
         }
-     
+
 
         private BumperArrayEntity CreateBumperArray()
         {
@@ -1239,7 +1256,7 @@ namespace Cranium.Simulation.Worlds
                     0.001f,
                     new Pose(new Vector3(0, 0.05f, -0.25f)),
                     new Vector3(0.40f, 0.03f, 0.03f)
-                    //new Vector3(0.40f, 0.01f, 0.03f)
+                //new Vector3(0.40f, 0.01f, 0.03f)
                 )
             );
             // TT - From Oct CTP
@@ -1250,7 +1267,7 @@ namespace Cranium.Simulation.Worlds
                     0.001f,
                     new Pose(new Vector3(0, 0.05f, 0.25f)),
                     new Vector3(0.40f, 0.03f, 0.03f)
-                    //new Vector3(0.40f, 0.01f, 0.03f)
+                //new Vector3(0.40f, 0.01f, 0.03f)
                 )
             );
             // TT - From Oct CTP

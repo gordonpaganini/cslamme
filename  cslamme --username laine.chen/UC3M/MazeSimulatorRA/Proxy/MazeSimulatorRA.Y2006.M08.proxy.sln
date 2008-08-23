@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSimulatorRA.Y2006.M08.proxy", "MazeSimulatorRA.Y2006.M08.proxy.csproj", "{2963AE89-8FB3-482B-AF42-7F3A24350256}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSimulatorRA.Y2006.M08.proxy", "MazeSimulatorRA.Y2006.M08.proxy.csproj", "{7E0A5E7E-301F-4DA9-B11C-1E593B8F1009}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,10 +8,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2963AE89-8FB3-482B-AF42-7F3A24350256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2963AE89-8FB3-482B-AF42-7F3A24350256}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2963AE89-8FB3-482B-AF42-7F3A24350256}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2963AE89-8FB3-482B-AF42-7F3A24350256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E0A5E7E-301F-4DA9-B11C-1E593B8F1009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E0A5E7E-301F-4DA9-B11C-1E593B8F1009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E0A5E7E-301F-4DA9-B11C-1E593B8F1009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E0A5E7E-301F-4DA9-B11C-1E593B8F1009}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

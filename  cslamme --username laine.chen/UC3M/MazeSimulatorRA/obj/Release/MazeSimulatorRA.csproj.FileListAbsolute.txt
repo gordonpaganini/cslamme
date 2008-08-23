@@ -3,3 +3,6 @@ C:\Microsoft Robotics Studio (1.5)\bin\MazeSimulatorRA.Y2006.M08.pdb
 C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\obj\Release\ResolveAssemblyReference.cache
 C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\obj\Release\MazeSimulatorRA.Y2006.M08.dll
 C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\obj\Release\MazeSimulatorRA.Y2006.M08.pdb
+C:\Users\Lalaine\Desktop\Apps\UC3M\MazeSimulatorRA\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Lalaine\Desktop\Apps\UC3M\MazeSimulatorRA\obj\Release\MazeSimulatorRA.Y2006.M08.dll
+C:\Users\Lalaine\Desktop\Apps\UC3M\MazeSimulatorRA\obj\Release\MazeSimulatorRA.Y2006.M08.pdb
