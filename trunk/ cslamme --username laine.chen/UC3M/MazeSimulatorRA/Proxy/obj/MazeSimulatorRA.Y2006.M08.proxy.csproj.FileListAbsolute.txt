@@ -7,3 +7,9 @@ C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\Proxy\obj\Debug\Cra
 C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\Proxy\obj\Debug\MazeSimulatorRA.Y2006.M08.proxy.csproj.GenerateResource.Cache
 C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\Proxy\obj\Debug\MazeSimulatorRA.Y2006.M08.Proxy.dll
 C:\Microsoft Robotics Studio (1.5)\Apps\UC3M\MazeSimulatorRA\Proxy\obj\Debug\MazeSimulatorRA.Y2006.M08.Proxy.pdb
+C:\Users\Lalaine\Desktop\Apps\UC3M\MazeSimulatorRA\Proxy\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lalaine\Desktop\Apps\UC3M\MazeSimulatorRA\Proxy\obj\Debug\Cranium.Simulation.Worlds.Resources.DssModel.dss
+C:\Users\Lalaine\Desktop\Apps\UC3M\MazeSimulatorRA\Proxy\obj\Debug\Cranium.Simulation.Worlds.Properties.Resources.resources
+C:\Users\Lalaine\Desktop\Apps\UC3M\MazeSimulatorRA\Proxy\obj\Debug\MazeSimulatorRA.Y2006.M08.proxy.csproj.GenerateResource.Cache
+C:\Users\Lalaine\Desktop\Apps\UC3M\MazeSimulatorRA\Proxy\obj\Debug\MazeSimulatorRA.Y2006.M08.Proxy.dll
+C:\Users\Lalaine\Desktop\Apps\UC3M\MazeSimulatorRA\Proxy\obj\Debug\MazeSimulatorRA.Y2006.M08.Proxy.pdb
