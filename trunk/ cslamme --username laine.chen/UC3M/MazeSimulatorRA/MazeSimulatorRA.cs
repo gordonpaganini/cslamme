@@ -227,8 +227,8 @@ namespace Cranium.Simulation.Worlds
             // office.bmp -- A black and white image of an "office" maze
             // Jul-2007:
             // Changed the location of the files
-            if (_state.Maze == null || _state.Maze == "")
-                _state.Maze = "Apps/UC3M/MazeSimulatorRA/OfficeRaul1.bmp";
+            //if (_state.Maze == null || _state.Maze == "")
+            _state.Maze = "Apps/UC3M/MazeSimulatorRA/3-maze.bmp";
 
             // Make sure that there is a floor texture
             // Plenty of others to try, e.g. concrete.jpg.
@@ -242,7 +242,7 @@ namespace Cranium.Simulation.Worlds
             // of the fields that are missing. Therefore the RobotType
             // is null and this causes the code to crash later on.
             if (_state.RobotType == null)
-                _state.RobotType = "Pioneer3DX"; //  "legonxt";
+                _state.RobotType = "Pioneer3DX";//   "legonxt"
 
 
 
@@ -362,7 +362,7 @@ namespace Cranium.Simulation.Worlds
         {
             AddSky();
             AddGround();
-            //AddMaze();
+            AddMaze();
             //AddBox(new Vector3(1, 0, -1), "box10");
 
             /*Environment A*/
@@ -379,7 +379,7 @@ namespace Cranium.Simulation.Worlds
             AddWall(-15, 30, 15, 31, 5.0f, BasicColor.Purple);*/
 
             /* Environment C*/
-            AddWall(-15, -15, 15, -16, 5.0f, BasicColor.Cyan);
+           /* AddWall(-15, -15, 15, -16, 5.0f, BasicColor.Cyan);
             AddWall(-15, 15, 15, 16, 5.0f, BasicColor.Cyan);
             AddWall(-16, -15, -17, 16, 5.0f, BasicColor.Cyan);
             AddWall(15, -15, 16, 16, 5.0f, BasicColor.Cyan);
@@ -387,7 +387,7 @@ namespace Cranium.Simulation.Worlds
             AddWall(8, -8, 9, -3, 5.0f, BasicColor.Cyan);
             AddWall(-9, -8, 7, -9, 5.0f, BasicColor.Cyan);
             AddWall(-7, 8, 9, 9, 5.0f, BasicColor.Cyan);
-            AddWall(-8, 3, -9, 9, 5.0f, BasicColor.Cyan);
+            AddWall(-8, 3, -9, 9, 5.0f, BasicColor.Cyan);*/
 
             AddRobot(new Vector3(1.0f, 0.0f, 1.0f));
         }

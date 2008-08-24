@@ -1,12 +1,6 @@
 C:\Microsoft Robotics Studio (1.5)\bin\ExplorerSim.Y2007.M06.Proxy.dll
 C:\Microsoft Robotics Studio (1.5)\bin\ExplorerSim.Y2007.M06.Proxy.pdb
 C:\Microsoft Robotics Studio (1.5)\bin\ExplorerSim.Y2007.M06.proxy.xml
-C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Proxy\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Proxy\obj\Debug\Microsoft.Robotics.Services.ExplorerSim.Resources.DssModel.dss
-C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Proxy\obj\Debug\Microsoft.Robotics.Services.ExplorerSim.Properties.Resources.resources
-C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Proxy\obj\Debug\ExplorerSim.Y2007.M06.proxy.csproj.GenerateResource.Cache
-C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Proxy\obj\Debug\ExplorerSim.Y2007.M06.Proxy.dll
-C:\Users\Lalaine\Desktop\QUTJul2007\Apps\QUT\ExplorerSim\Proxy\obj\Debug\ExplorerSim.Y2007.M06.Proxy.pdb
 C:\Microsoft Robotics Studio (1.5)\Apps\QUT\ExplorerSim\Proxy\obj\Debug\ResolveAssemblyReference.cache
 C:\Microsoft Robotics Studio (1.5)\Apps\QUT\ExplorerSim\Proxy\obj\Debug\Microsoft.Robotics.Services.ExplorerSim.Resources.DssModel.dss
 C:\Microsoft Robotics Studio (1.5)\Apps\QUT\ExplorerSim\Proxy\obj\Debug\Microsoft.Robotics.Services.ExplorerSim.Properties.Resources.resources

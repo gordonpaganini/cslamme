@@ -94,18 +94,18 @@ namespace Microsoft.Robotics.Services.ExplorerSim
         /// <summary>
         /// If an obstacle comes within thisdistance the robot stops moving.
         /// </summary>
-        const int ObstacleDistance = 300; // mm  (previous value = 500)
+        const int ObstacleDistance = 200; // mm  (previous value = 500)
 
         /// <summary>
         /// If the robot is mapping and has this much open space ahead it stops mapping
         /// and enters the space.
         /// </summary>
-        const int SafeDistance = 500; // mm (previous value: 2000)
+        const int SafeDistance = 300; // mm (previous value: 2000)
 
         /// <summary>
         /// The width of the corridor that must be safe in order to go from mapping to moving.
         /// </summary>
-        const int CorridorWidthMapping = 50; // mm (previous value: 350)
+        const int CorridorWidthMapping = 10; // mm (previous value: 350)
 
         /// <summary>
         /// The minimum free distance that is required to drive with max. velocity.
@@ -116,20 +116,20 @@ namespace Microsoft.Robotics.Services.ExplorerSim
         /// If the free space is at least this distance the robot operates at 1/2 max. velocity otherwise 
         /// the robot slows down to 1/4 of max. vel.
         /// </summary>
-        const int AwareOfObstacleDistance = 1500; // mm (previous value = 1500)
+        const int AwareOfObstacleDistance = 600; // mm (previous value = 1500)
 
         /// <summary>
         /// The max. velocity with which to move.
         /// </summary>
-// TT Jun-2007
-// A value of 1000 is way too fast in simulation
-        const int MaximumForwardVelocity = 2000; // mm/sec
+        // TT Jun-2007
+        // A value of 1000 is way too fast in simulation
+        const int MaximumForwardVelocity = 200; // mm/sec
         //const int MaximumForwardVelocity = 600; // mm/sec
 
         /// <summary>
         /// The with of the corridor in which obstacles effect velocity.
         /// </summary>
-        const int CorridorWidthMoving = 500; // mm
+        const int CorridorWidthMoving = 200; // mm
 
         /// <summary>
         /// If no laser data is received within this time the robot stops.
@@ -181,9 +181,9 @@ namespace Microsoft.Robotics.Services.ExplorerSim
 
 
         #endregion
-         
-         
-   
+
+
+
 
         public ExplorerSimSonar(DsspServiceCreationPort create)
             : base(create)
@@ -214,9 +214,9 @@ namespace Microsoft.Robotics.Services.ExplorerSim
                         Arbiter.Receive<DsspDefaultDrop>(false, _mainPort, DropHandler)
                     ),
                     new ExclusiveReceiverGroup(
-                        // Arbiter.Receive<LaserRangeFinderResetUpdate>(true, _mainPort, LaserRangeFinderResetUpdateHandler),
-                        // Arbiter.Receive<LaserRangeFinderUpdate>(true, _mainPort, LaserRangeFinderUpdateHandler),
-                        // Raul - Sonar Update Handler
+                // Arbiter.Receive<LaserRangeFinderResetUpdate>(true, _mainPort, LaserRangeFinderResetUpdateHandler),
+                // Arbiter.Receive<LaserRangeFinderUpdate>(true, _mainPort, LaserRangeFinderUpdateHandler),
+                // Raul - Sonar Update Handler
                         Arbiter.Receive<SonarUpdate>(true, _mainPort, SonarUpdateHandler),
                         Arbiter.Receive<BumpersUpdate>(true, _mainPort, BumpersUpdateHandler),
                         Arbiter.Receive<BumperUpdate>(true, _mainPort, BumperUpdateHandler),
@@ -237,9 +237,9 @@ namespace Microsoft.Robotics.Services.ExplorerSim
                     new TeardownReceiverGroup(),
                     new ExclusiveReceiverGroup(),
                     new ConcurrentReceiverGroup(
-                        // Arbiter.Receive<sicklrf.Reset>(true, _laserNotify, LaserResetNotification),
-                        // Raul - Sonar replace notification handler
-                        // Arbiter.Receive<pxsonar.Replace>(true, _sonarNotify, SonarReplaceNotification),
+                // Arbiter.Receive<sicklrf.Reset>(true, _laserNotify, LaserResetNotification),
+                // Raul - Sonar replace notification handler
+                // Arbiter.Receive<pxsonar.Replace>(true, _sonarNotify, SonarReplaceNotification),
                         Arbiter.Receive<drive.Update>(true, _driveNotify, DriveUpdateNotification),
                         Arbiter.Receive<bumper.Replace>(true, _bumperNotify, BumperReplaceNotification),
                         Arbiter.Receive<bumper.Update>(true, _bumperNotify, BumperUpdateNotification)
@@ -298,7 +298,7 @@ namespace Microsoft.Robotics.Services.ExplorerSim
 
             // Raul - Use Sonar and LRF flags
             _state.UseLRF = false;
-            _state.UseSonar = true; 
+            _state.UseSonar = true;
 
             // Raul - Max range for sonar.
             if (_state.UseSonar)
@@ -625,7 +625,7 @@ namespace Microsoft.Robotics.Services.ExplorerSim
             update.ResponsePort.Post(DefaultUpdateResponseType.Instance);
         }
 
-        #endregion 
+        #endregion
 
         #region Sonar Handlers
 
@@ -691,7 +691,7 @@ namespace Microsoft.Robotics.Services.ExplorerSim
 
                 UpdateLogicalState(sonarData, distance);
             }
- 
+
             update.ResponsePort.Post(DefaultUpdateResponseType.Instance);
         }
 
@@ -1052,7 +1052,7 @@ namespace Microsoft.Robotics.Services.ExplorerSim
         }
 
 
-                /// <summary>
+        /// <summary>
         /// Transitions to "Mapping" meta state or "AdjustHeading" state depending on
         /// environment.
         /// </summary>
@@ -1153,7 +1153,7 @@ namespace Microsoft.Robotics.Services.ExplorerSim
                     sonarData = testReplace.Body;
                 }
             }
-           
+
             if (count > 0)
             {
                 LogInfo(string.Format("Dropped {0} sonar readings (sonar start)", count));
@@ -1230,7 +1230,7 @@ namespace Microsoft.Robotics.Services.ExplorerSim
         }
 
 
-       /// <summary>
+        /// <summary>
         /// Finds the best free corridor (maximum free space ahead) in a 360 degree scan.
         /// </summary>
         /// <param name="south">the backward half of the scan</param>
@@ -1281,9 +1281,9 @@ namespace Microsoft.Robotics.Services.ExplorerSim
             // Raul - I am assuming just one 8 transducer frontal sonar ring.
             // Raul - That means just 8 measuments per 180 degrees. 
             // Raul - Therefore a 360 scan has SonarTranducers * 2 measurements.
-            composite.DistanceMeasurements = new double[_state.SonarTransducers*2];
+            composite.DistanceMeasurements = new double[_state.SonarTransducers * 2];
 
-            for (int i = 0; i < _state.SonarTransducers*2; i++)
+            for (int i = 0; i < _state.SonarTransducers * 2; i++)
             {
                 if (i < _state.SonarTransducers)
                 {
@@ -1291,7 +1291,7 @@ namespace Microsoft.Robotics.Services.ExplorerSim
                 }
                 else
                 {
-                    composite.DistanceMeasurements[i] = north.DistanceMeasurements[i-_state.SonarTransducers];
+                    composite.DistanceMeasurements[i] = north.DistanceMeasurements[i - _state.SonarTransducers];
                 }
             }
 
@@ -1410,7 +1410,7 @@ namespace Microsoft.Robotics.Services.ExplorerSim
                 }
                 else
                 {
-                    angle = -_state.SonarRadians[i-_state.SonarTransducers];
+                    angle = -_state.SonarRadians[i - _state.SonarTransducers];
                 }
 
                 double x = range * Math.Sin(angle) - dx;
@@ -1571,7 +1571,7 @@ namespace Microsoft.Robotics.Services.ExplorerSim
             //LogInfo("Nearest Obstacle: " + best);
             return best;
         }
-    
+
 
         #region Drive helper method
 
@@ -1731,7 +1731,7 @@ namespace Microsoft.Robotics.Services.ExplorerSim
                 // Raul - Different parameters for Sonar data (P3DX sonar transducers orientation)
                 else if (_state.UseSonar)
                 {
-                    
+
                     // Set the parameters and allocate the necessary memory
                     _mapBitmap = _map.Init(true, DistanceMeasurements.Length, _state.MapMaxRange,
                                     startAngle, angleIncrement,

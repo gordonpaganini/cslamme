@@ -242,8 +242,8 @@ namespace Microsoft.Robotics.Services.ExplorerSim
         {
             _state = new State();
             // Map dimensions in meters
-            _state.MapWidth = 3;
-            _state.MapHeight = 3;
+            _state.MapWidth = 24;
+            _state.MapHeight = 18;
             // Map resolution in meters
             _state.MapResolution = 0.05;
             // Maximum range in meters

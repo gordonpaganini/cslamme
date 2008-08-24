@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MazeSimulatorState xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:d="http://schemas.microsoft.com/xw/2004/10/dssp.html" xmlns="http://www.conscious-robots.com/2007/08/mazesimulatorra.html">
-  <Maze>Apps/UC3M/MazeSimulatorRA/OfficeRaul1.bmp</Maze>
+  <Maze>Apps/UC3M/MazeSimulatorRA/3-maze.bmp</Maze>
   <GroundTexture>cellfloor.jpg</GroundTexture>
   <WallTextures>
     <string>SolidBlack.bmp</string>
