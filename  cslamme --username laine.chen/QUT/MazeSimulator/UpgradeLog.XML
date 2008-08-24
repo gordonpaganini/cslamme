@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
 <Properties><Property Name="Solution" Value="MazeSimulator">
-</Property><Property Name="Solution File" Value="C:\Microsoft Robotics Studio (1.5)\QUTJul2007\Apps\QUT\MazeSimulator\MazeSimulator.sln">
-</Property><Property Name="User Options File" Value="C:\Microsoft Robotics Studio (1.5)\QUTJul2007\Apps\QUT\MazeSimulator\MazeSimulator.suo">
-</Property><Property Name="Date" Value="Wednesday, August 13, 2008">
-</Property><Property Name="Time" Value="15:24 PM">
-</Property></Properties><Event ErrorLevel="0" Project="" Source="MazeSimulator.sln" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\QUTJul2007\Apps\QUT\MazeSimulator\Backup\MazeSimulator.sln">
-</Event><Event ErrorLevel="0" Project="" Source="MazeSimulator.suo" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\QUTJul2007\Apps\QUT\MazeSimulator\Backup\MazeSimulator.suo">
-</Event><Event ErrorLevel="0" Project="MazeSimulator" Source="MazeSimulator.csproj" Description="Project file successfully backed up as C:\Microsoft Robotics Studio (1.5)\QUTJul2007\Apps\QUT\MazeSimulator\Backup\MazeSimulator.csproj">
-</Event><Event ErrorLevel="0" Project="MazeSimulator" Source="MazeSimulator.csproj.user" Description="Project user file successfully backed up as C:\Microsoft Robotics Studio (1.5)\QUTJul2007\Apps\QUT\MazeSimulator\Backup\MazeSimulator.csproj.user">
-</Event><Event ErrorLevel="0" Project="MazeSimulator" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\QUTJul2007\Apps\QUT\MazeSimulator\Backup\AssemblyInfo.cs">
-</Event><Event ErrorLevel="0" Project="MazeSimulator" Source="MazeSimulator.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\QUTJul2007\Apps\QUT\MazeSimulator\Backup\MazeSimulator.cs">
-</Event><Event ErrorLevel="0" Project="MazeSimulator" Source="MazeSimulatorTypes.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\QUTJul2007\Apps\QUT\MazeSimulator\Backup\MazeSimulatorTypes.cs">
-</Event><Event ErrorLevel="0" Project="MazeSimulator" Source="mrisamples.snk" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\QUTJul2007\Apps\QUT\MazeSimulator\Backup\mrisamples.snk">
-</Event><Event ErrorLevel="0" Project="MazeSimulator" Source="MazeSimulator.manifest.xml" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\QUTJul2007\Apps\QUT\MazeSimulator\Backup\MazeSimulator.manifest.xml">
+</Property><Property Name="Solution File" Value="C:\Microsoft Robotics Studio (1.5)\Apps\QUT\MazeSimulator\MazeSimulator.sln">
+</Property><Property Name="User Options File" Value="C:\Microsoft Robotics Studio (1.5)\Apps\QUT\MazeSimulator\MazeSimulator.suo">
+</Property><Property Name="Date" Value="Saturday, August 23, 2008">
+</Property><Property Name="Time" Value="16:15 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MazeSimulator.sln" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\MazeSimulator\Backup\MazeSimulator.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MazeSimulator.suo" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\MazeSimulator\Backup\MazeSimulator.suo">
+</Event><Event ErrorLevel="0" Project="MazeSimulator" Source="MazeSimulator.csproj" Description="Project file successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\MazeSimulator\Backup\MazeSimulator.csproj">
+</Event><Event ErrorLevel="0" Project="MazeSimulator" Source="MazeSimulator.csproj.user" Description="Project user file successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\MazeSimulator\Backup\MazeSimulator.csproj.user">
+</Event><Event ErrorLevel="0" Project="MazeSimulator" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\MazeSimulator\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MazeSimulator" Source="MazeSimulator.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\MazeSimulator\Backup\MazeSimulator.cs">
+</Event><Event ErrorLevel="0" Project="MazeSimulator" Source="MazeSimulatorTypes.cs" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\MazeSimulator\Backup\MazeSimulatorTypes.cs">
+</Event><Event ErrorLevel="0" Project="MazeSimulator" Source="mrisamples.snk" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\MazeSimulator\Backup\mrisamples.snk">
+</Event><Event ErrorLevel="0" Project="MazeSimulator" Source="MazeSimulator.manifest.xml" Description="File successfully backed up as C:\Microsoft Robotics Studio (1.5)\Apps\QUT\MazeSimulator\Backup\MazeSimulator.manifest.xml">
 </Event><Event ErrorLevel="0" Project="MazeSimulator" Source="MazeSimulator.csproj" Description="Project converted successfully">
 </Event><Event ErrorLevel="3" Project="MazeSimulator" Source="MazeSimulator.csproj" Description="Converted">
 </Event><Event ErrorLevel="0" Project="" Source="MazeSimulator.sln" Description="Solution converted successfully">

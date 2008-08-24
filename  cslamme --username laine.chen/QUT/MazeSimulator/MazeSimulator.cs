@@ -960,12 +960,13 @@ namespace Robotics.MazeSimulator
             Vector3 position = new Vector3(_state.RobotStartCellCol * -_state.GridSpacing,
                                 0.05f,
                                 -(_state.RobotStartCellRow * _state.GridSpacing));
-            if (_state.RobotType.ToLower() == "pioneer3dx")
+            AddLegoNxtRobot(position);
+            /*if (_state.RobotType.ToLower() == "pioneer3dx")
                 AddPioneer3DXRobot(position);
             else if (_state.RobotType.ToLower() == "legonxt")
                 AddLegoNxtRobot(position);
             else
-                AddPioneer3DXRobot(position);
+                AddPioneer3DXRobot(position);*/
         }
 
         #region Pioneer
@@ -1194,6 +1195,11 @@ namespace Robotics.MazeSimulator
 
             // insert as child of motor base
             robotBaseEntity.InsertEntity(bumperArray);
+            // Create Laser entity and start simulated laser service
+            LaserRangeFinderEntity laser = CreateLaserRangeFinder();
+
+            // Add laser as child to motor base
+            robotBaseEntity.InsertEntity(laser);
 
             // Finaly insert the motor base and its two children 
             // to the simulation

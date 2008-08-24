@@ -2,7 +2,7 @@
 <StateType xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:d="http://schemas.microsoft.com/xw/2004/10/dssp.html" xmlns="http://schemas.microsoft.com/robotics/2006/10/dashboard.html">
   <Log>false</Log>
   <LogFile />
-  <Machine>lalaine-pc</Machine>
+  <Machine>localhost</Machine>
   <Port>50001</Port>
   <Options>
     <WindowStartX>0</WindowStartX>
